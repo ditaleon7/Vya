@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nurani Shilvya Akbar</title>
+<meta name="description" content="Portofolio Nurani Shilvya Akbar, lulusan S1 Manajemen — administrasi & manajemen bisnis." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="./assets/css/output.css" />
+<link rel="icon" type="image/png" href="./assets/image/logo.png">
+</head>
+<body class="bg-cream text-sky-ink antialiased">
+
+  <!-- =========================================================
+       NAVBAR
+  ========================================================== -->
+  <header id="navbar" class="fixed inset-x-0 top-0 z-40">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <a href="#beranda" class="nav-link font-display text-lg font-semibold text-sky-ink">
+        Nurani<span class="text-sky-deep">.</span>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8 font-body text-sm font-medium text-sky-ink">
+        <a href="#beranda" class="nav-link">Beranda</a>
+        <a href="#tentang" class="nav-link">Tentang</a>
+        <a href="#keahlian" class="nav-link">Keahlian</a>
+        <a href="#pengalaman" class="nav-link">Pengalaman</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </div>
+
+      <button id="nav-toggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" class="md:hidden flex h-10 w-10 items-center justify-center rounded-full bg-sky-deep/10 text-sky-ink">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </nav>
+
+    <div id="nav-mobile-menu" class="hidden md:!hidden flex flex-col gap-1 bg-cream/95 px-6 pb-5 font-body text-sm font-medium">
+      <a href="#beranda" class="nav-link block py-2">Beranda</a>
+      <a href="#tentang" class="nav-link block py-2">Tentang</a>
+      <a href="#keahlian" class="nav-link block py-2">Keahlian</a>
+      <a href="#pengalaman" class="nav-link block py-2">Pengalaman</a>
+      <a href="#kontak" class="nav-link block py-2">Kontak</a>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       KONTEN 1 — BERANDA
+  ========================================================== -->
+  <section id="beranda" class="relative min-h-screen overflow-hidden bg-gradient-to-b from-sky-light via-sky-mist to-cream">
+
+    <!-- ambient sky elements -->
+    <div class="sun-glow absolute -top-16 right-8 w-56 h-56 md:w-72 md:h-72"></div>
+    <div class="absolute inset-0" data-gull-zone></div>
+    <div class="absolute inset-0" data-bubble-zone="10"></div>
+
+    <div class="relative z-10 mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-6 pt-32 pb-24 text-center">
+
+      <p class="reveal font-body text-xs md:text-sm uppercase tracking-[0.35em] text-sky-deep mb-6">
+        Administrasi &middot; Manajemen Bisnis &middot; Sumber Daya Manusia
+      </p>
+
+      <!-- foto1 di tengah -->
+      <div class="reveal relative mb-8">
+        <div class="absolute inset-0 -m-3 rounded-full bg-sky/40 blur-2xl"></div>
+        <div class="relative h-40 w-40 md:h-52 md:w-52 overflow-hidden rounded-full ring-4 ring-cream shadow-drift">
+          <img src="./assets/image/foto1.jpeg" alt="Foto Nurani Shilvya Akbar" class="h-full w-full object-cover" />
+        </div>
+      </div>
+
+      <h1 class="reveal font-display text-2xl md:text-5xl font-semibold text-sky-ink leading-tight">
+        Nurani Shilvya Akbar
+      </h1>
+
+      <div class="reveal mt-10 flex flex-col sm:flex-row items-center gap-4">
+        <a href="#tentang" class="w-56 sm:w-auto rounded-full bg-sky-deep px-8 py-3.5 font-body font-semibold text-cream shadow-drift transition hover:bg-sky-ink hover:-translate-y-0.5">
+          Tentang Saya
+        </a>
+        <a href="#kontak" class="w-56 sm:w-auto rounded-full border-2 border-sky-deep px-8 py-3.5 font-body font-semibold text-sky-deep transition hover:bg-sky-deep hover:text-cream hover:-translate-y-0.5">
+          Hubungi Saya
+        </a>
+      </div>
+    </div>
+
+    <!-- tideline signature -->
+    <div class="tideline absolute bottom-0 left-0 right-0">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="wave-shimmer" fill="#FFF8E9" d="M0,64 C240,110 480,10 720,40 C960,70 1200,110 1440,56 L1440,120 L0,120 Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       KONTEN 2 — TENTANG SAYA
+  ========================================================== -->
+  <section id="tentang" class="relative overflow-hidden bg-cream pt-24 pb-40 md:pt-32 md:pb-48">
+    <div class="absolute inset-0" data-bubble-zone="6"></div>
+
+    <div class="relative z-10 mx-auto grid max-w-6xl grid-cols-1 items-center gap-14 px-6 md:grid-cols-2">
+
+      <!-- teks di kiri -->
+      <div class="reveal order-2 md:order-1">
+        <p class="font-body text-xs uppercase tracking-[0.35em] text-sky-deep mb-3">Tentang Saya</p>
+        <h2 class="font-display text-3xl md:text-4xl font-semibold text-sky-ink mb-6">
+          Terbiasa merapikan hal rumit menjadi sistem yang tenang
+        </h2>
+        <p class="font-body text-sky-ink/80 leading-relaxed mb-4">
+          Saya lulusan baru S1 Manajemen, Fakultas Ekonomi dan Bisnis, Universitas Mataram,
+          dengan konsentrasi Manajemen Sumber Daya Manusia dan IPK 3,46.
+          Saya memiliki pengalaman magang di bidang manajemen maupun non-manajemen,
+          dan terbiasa menangani berbagai tanggung jawab secara bersamaan.
+        </p>
+        <p class="font-body text-sky-ink/80 leading-relaxed mb-8">
+          Terampil mengoperasikan Microsoft Office (Word, Excel, PowerPoint), rapi dalam
+          mengarsipkan dokumen, serta adaptif, komunikatif, dan berorientasi pada hasil.
+          Saya senang mempelajari hal baru untuk memberi kontribusi terbaik di setiap kesempatan.
+        </p>
+      </div>
+
+      <!-- foto2 di kanan dengan efek border animasi memutar -->
+      <div class="reveal order-1 md:order-2 flex justify-center">
+        <div class="spin-border relative max-w-xs">
+          <div class="overflow-hidden rounded-xl">
+            <img src="./assets/image/foto2.jpeg" alt="Nurani Shilvya Akbar di lingkungan kerja" class="h-80 w-64 object-cover md:h-96 md:w-72" />
+          </div>
+          <span class="absolute -bottom-4 -left-4 rounded-full bg-sky-deep px-4 py-2 font-display text-xs text-cream shadow-drift -rotate-3">
+            Siap kerja &amp; terus belajar
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="tideline absolute top-15 bottom-0 left-0 right-0 rotate-180">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="wave-shimmer" fill="#CDEBF6" d="M0,64 C240,20 480,110 720,80 C960,50 1200,20 1440,64 L1440,120 L0,120 Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       KONTEN 3 — KEAHLIAN
+  ========================================================== -->
+  <section id="keahlian" class="relative overflow-hidden bg-sky-light py-24 md:py-32">
+    <div class="absolute inset-0" data-bubble-zone="8"></div>
+
+    <div class="relative z-10 mx-auto max-w-6xl px-6">
+      <div class="reveal text-center max-w-2xl mx-auto mb-16">
+        <p class="font-body text-xs uppercase tracking-[0.35em] text-sky-deep mb-3">Keahlian</p>
+        <h2 class="font-display text-3xl md:text-4xl font-semibold text-sky-ink">
+          Perlengkapan yang saya bawa ke setiap pekerjaan
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5">
+
+        <!-- Supervising -->
+        <div class="skill-card reveal flex flex-col items-center text-center gap-3 rounded-2xl bg-cream/90 px-4 py-7 shadow-md">
+          <span class="flex h-14 w-14 items-center justify-center rounded-full bg-sky-deep/10">
+            <svg class="h-7 w-7 text-sky-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+          </span>
+          <p class="font-body text-sm font-semibold text-sky-ink">Supervising</p>
+        </div>
+
+        <!-- Teamwork -->
+        <div class="skill-card reveal flex flex-col items-center text-center gap-3 rounded-2xl bg-cream/90 px-4 py-7 shadow-md">
+          <span class="flex h-14 w-14 items-center justify-center rounded-full bg-sky-deep/10">
+            <svg class="h-7 w-7 text-sky-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="9" r="3"/><circle cx="16" cy="9" r="3"/><path d="M2 20c0-3 2.5-5 6-5s6 2 6 5"/><path d="M10 20c0-3 2.5-5 6-5s6 2 6 5"/></svg>
+          </span>
+          <p class="font-body text-sm font-semibold text-sky-ink">Teamwork</p>
+        </div>
+
+        <!-- Business Management -->
+        <div class="skill-card reveal flex flex-col items-center text-center gap-3 rounded-2xl bg-cream/90 px-4 py-7 shadow-md">
+          <span class="flex h-14 w-14 items-center justify-center rounded-full bg-sky-deep/10">
+            <svg class="h-7 w-7 text-sky-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+          </span>
+          <p class="font-body text-sm font-semibold text-sky-ink">Business Management</p>
+        </div>
+
+        <!-- Microsoft Word -->
+        <div class="skill-card reveal flex flex-col items-center text-center gap-3 rounded-2xl bg-cream/90 px-4 py-7 shadow-md">
+          <span class="flex h-14 w-14 items-center justify-center rounded-full bg-sky-deep/10">
+            <img src="./assets/icon/word.svg" alt="Microsoft Word" class="h-7 w-7" />
+          </span>
+          <p class="font-body text-sm font-semibold text-sky-ink">Microsoft Word</p>
+        </div>
+
+        <!-- Multitasking -->
+        <div class="skill-card reveal flex flex-col items-center text-center gap-3 rounded-2xl bg-cream/90 px-4 py-7 shadow-md">
+          <span class="flex h-14 w-14 items-center justify-center rounded-full bg-sky-deep/10">
+            <svg class="h-7 w-7 text-sky-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></svg>
+          </span>
+          <p class="font-body text-sm font-semibold text-sky-ink">Multitasking</p>
+        </div>
+
+        <!-- Time Management -->
+        <div class="skill-card reveal flex flex-col items-center text-center gap-3 rounded-2xl bg-cream/90 px-4 py-7 shadow-md">
+          <span class="flex h-14 w-14 items-center justify-center rounded-full bg-sky-deep/10">
+            <svg class="h-7 w-7 text-sky-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          </span>
+          <p class="font-body text-sm font-semibold text-sky-ink">Time Management</p>
+        </div>
+
+        <!-- Attention to Detail -->
+        <div class="skill-card reveal flex flex-col items-center text-center gap-3 rounded-2xl bg-cream/90 px-4 py-7 shadow-md">
+          <span class="flex h-14 w-14 items-center justify-center rounded-full bg-sky-deep/10">
+            <svg class="h-7 w-7 text-sky-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          </span>
+          <p class="font-body text-sm font-semibold text-sky-ink">Attention to Detail</p>
+        </div>
+
+        <!-- Canva -->
+        <div class="skill-card reveal flex flex-col items-center text-center gap-3 rounded-2xl bg-cream/90 px-4 py-7 shadow-md">
+          <span class="flex h-14 w-14 items-center justify-center rounded-full bg-sky-deep/10">
+            <img src="./assets/icon/canva.svg" alt="Social Media" class="h-7 w-7" />
+          </span>
+          <p class="font-body text-sm font-semibold text-sky-ink">Canva</p>
+        </div>
+
+        <!-- Microsoft Excel -->
+        <div class="skill-card reveal flex flex-col items-center text-center gap-3 rounded-2xl bg-cream/90 px-4 py-7 shadow-md">
+          <span class="flex h-14 w-14 items-center justify-center rounded-full bg-sky-deep/10">
+            <img src="./assets/icon/excel.svg" alt="Microsoft Excel" class="h-7 w-7" />
+          </span>
+          <p class="font-body text-sm font-semibold text-sky-ink">Microsoft Excel</p>
+        </div>
+
+        <!-- Microsoft Office -->
+        <div class="skill-card reveal flex flex-col items-center text-center gap-3 rounded-2xl bg-cream/90 px-4 py-7 shadow-md">
+          <span class="flex h-14 w-14 items-center justify-center rounded-full bg-sky-deep/10">
+            <img src="./assets/icon/powerpoint.svg" alt="Microsoft Office" class="h-7 w-7" />
+          </span>
+          <p class="font-body text-sm font-semibold text-sky-ink">Microsoft Office</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="tideline absolute bottom-0 left-0 right-0">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="wave-shimmer" fill="#FFF8E9" d="M0,64 C240,110 480,10 720,40 C960,70 1200,110 1440,56 L1440,120 L0,120 Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       KONTEN 4 — PENGALAMAN KERJA
+  ========================================================== -->
+  <section id="pengalaman" class="relative overflow-hidden bg-cream pt-24 pb-40 md:pt-32 md:pb-48">
+    <div class="absolute inset-0" data-bubble-zone="6"></div>
+
+    <div class="relative z-10 mx-auto max-w-4xl px-6">
+      <div class="reveal text-center mb-16">
+        <p class="font-body text-xs uppercase tracking-[0.35em] text-sky-deep mb-3">Pengalaman Kerja</p>
+        <h2 class="font-display text-3xl md:text-4xl font-semibold text-sky-ink">
+          Perjalanan singkat yang membentuk cara kerja saya
+        </h2>
+      </div>
+
+      <div class="space-y-8">
+      <!-- kartu pengalaman bergaya boarding pass -->
+       <!--Card 1-->
+      <div class="reveal relative mx-auto max-w-2xl overflow-hidden rounded-2xl bg-white/80 shadow-drift">
+        <div class="flex flex-col sm:flex-row">
+
+          <div class="flex sm:flex-col items-center justify-between sm:justify-center gap-2 bg-sky-deep px-6 py-5 sm:w-40">
+            <p class="font-body text-[11px] uppercase tracking-widest text-cream/70">Periode</p>
+            <p class="font-display text-xl font-semibold text-cream">Nov 2025 - Mei 2026</p>
+          </div>
+
+          <div class="relative flex-1 px-7 py-7">
+            <!-- perforasi -->
+            <span class="hidden sm:block absolute -left-3 top-1/2 -translate-y-1/2 h-6 w-6 rounded-full bg-cream"></span>
+
+            <p class="font-display text-xl font-semibold text-sky-ink">Magang Pengelolaan & Administrasi Aset (BMN)</p>
+            <p class="font-body text-sm text-sky-deep mt-1 mb-4">
+              Kantor Wilayah Direktorat Jenderal Imigrasi, NTB
+            </p>
+
+            <p class="font-body text-sm text-sky-ink/80 leading-relaxed space-y-2 text-justify">
+              Membantu pengelolaan Barang Milik Negara (BMN) dan pencatatan inventaris, 
+              mendukung dokumentasi administrasi serta sistem pengarsipan, dan turut serta 
+              menyusun laporan terkait pengelolaan aset.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    <!--Card 2-->
+      <div class="reveal relative mx-auto max-w-2xl overflow-hidden rounded-2xl bg-white/80 shadow-drift">
+        <div class="flex flex-col sm:flex-row">
+
+          <div class="flex sm:flex-col items-center justify-between sm:justify-center gap-2 bg-sky-deep px-6 py-5 sm:w-40">
+            <p class="font-body text-[11px] uppercase tracking-widest text-cream/70">Periode</p>
+            <p class="font-display text-xl font-semibold text-cream">2023</p>
+          </div>
+
+          <div class="relative flex-1 px-7 py-7">
+            <!-- perforasi -->
+            <span class="hidden sm:block absolute -left-3 top-1/2 -translate-y-1/2 h-6 w-6 rounded-full bg-cream"></span>
+
+            <p class="font-display text-xl font-semibold text-sky-ink">Customer Service — Magang MBKM</p>
+            <p class="font-body text-sm text-sky-deep mt-1 mb-4">
+              PT. Telekomunikasi Indonesia Tbk, Witel NTB, Kota Mataram, NTB
+            </p>
+
+            <p class="font-body text-sm text-sky-ink/80 leading-relaxed space-y-2 text-justify">
+              Melayani pelanggan IndiHome, melakukan audit situs web untuk mengidentifikasi dan memperbaiki masalah, 
+              memetakan peluang pengembangan jaringan melalui program Microdemand di wilayah Kota Mataram dan Lombok Barat, 
+              serta mendukung strategi penjualan dan pemasaran yang selaras dengan tujuan jangka panjang perusahaan.
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+    <div class="tideline absolute top-15 bottom-0 left-0 right-0 rotate-180">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="wave-shimmer" fill="#CDEBF6" d="M0,64 C240,20 480,110 720,80 C960,50 1200,20 1440,64 L1440,120 L0,120 Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       KONTEN 5 — KONTAK
+  ========================================================== -->
+  <section id="kontak" class="relative overflow-hidden bg-sky-light pt-24 pb-0 md:pt-32">
+    <div class="absolute inset-0" data-bubble-zone="8"></div>
+
+    <div class="relative z-10 mx-auto grid max-w-6xl grid-cols-1 items-center gap-14 px-6 md:grid-cols-2">
+
+      <!-- info kontak di kiri -->
+      <div class="reveal">
+        <p class="font-body text-xs uppercase tracking-[0.35em] text-sky-deep mb-3">Kontak</p>
+        <h2 class="font-display text-3xl md:text-4xl font-semibold text-sky-ink mb-6">
+          Mari terhubung, obrolan pertama kita bisa dimulai di sini
+        </h2>
+        <p class="font-body text-sky-ink/80 leading-relaxed mb-8">
+          Terbuka untuk peluang di bidang administrasi, manajemen bisnis, maupun sumber daya manusia.
+          Silakan hubungi saya melalui salah satu saluran berikut.
+        </p>
+
+        <div class="space-y-4">
+          <a href="mailto:nuranishilvyaa01@gmail.com" class="flex items-center gap-4 rounded-2xl bg-cream/80 px-5 py-4 transition hover:-translate-y-0.5 hover:shadow-drift">
+            <span class="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-sky-deep/10">
+              <svg class="h-5 w-5 text-sky-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
+            </span>
+            <span>
+              <span class="block font-body text-xs text-sky-ink/60">Email</span>
+              <span class="block font-body text-sm font-semibold text-sky-ink">nuranishilvyaa01@gmail.com</span>
+            </span>
+          </a>
+
+          <a href="https://wa.me/6285738103365" target="_blank" rel="noopener" class="flex items-center gap-4 rounded-2xl bg-cream/80 px-5 py-4 transition hover:-translate-y-0.5 hover:shadow-drift">
+            <span class="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-sky-deep/10">
+              <svg class="h-5 w-5 text-sky-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.55L3 20l1.05-5.4A8.5 8.5 0 1 1 21 11.5Z"/><path d="M9 10c0 2.5 2 4.5 4.5 4.5"/></svg>
+            </span>
+            <span>
+              <span class="block font-body text-xs text-sky-ink/60">WhatsApp</span>
+              <span class="block font-body text-sm font-semibold text-sky-ink">0857-3810-3365</span>
+            </span>
+          </a>
+
+          <a href="https://www.instagram.com/shilvyaaa___/" target="_blank" rel="noopener" class="flex items-center gap-4 rounded-2xl bg-cream/80 px-5 py-4 transition hover:-translate-y-0.5 hover:shadow-drift">
+            <span class="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-sky-deep/10">
+              <svg class="h-5 w-5 text-sky-deep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+            </span>
+            <span>
+              <span class="block font-body text-xs text-sky-ink/60">Instagram</span>
+              <span class="block font-body text-sm font-semibold text-sky-ink">@shilvyaaa___</span>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- foto3 di kanan dengan efek border animasi memutar -->
+      <div class="reveal flex justify-center">
+        <div class="spin-border relative max-w-sm">
+          <div class="overflow-hidden rounded-xl">
+            <img src="./assets/image/foto3.jpeg" alt="Nurani Shilvya Akbar" class="h-96 w-72 object-cover object-top" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="relative z-10 mt-10 border-t border-sky-deep/15 py-6">
+      <p class="text-center font-body text-[12px] text-sky-ink/60">
+        © 2026 Nurani Shilvya Akbar
+      </p>
+    </footer>
+  </section>
+
+  <!-- Tombol mengambang: kembali ke Beranda -->
+  <button
+    id="back-to-beranda"
+    type="button"
+    aria-label="Kembali ke Beranda"
+    class="fixed bottom-6 right-6 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-sky-deep p-3 text-cream shadow-drift opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:bg-sky-ink"
+  >
+    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 11.5 12 4l9 7.5"/>
+      <path d="M5 10v9a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1v-9"/>
+    </svg>
+  </button>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
