@@ -268,6 +268,28 @@ button {
   box-shadow: var(--shadow-drift);
 }
 
+/* Rating dots on skill cards */
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.rating-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 9999px;
+  background: var(--color-sky);
+  flex-shrink: 0;
+}
+
+.rating-dot--empty {
+  background: transparent;
+  border: 1.5px solid var(--color-sky);
+  opacity: 0.4;
+}
+
 /* Scrollbar tint (progressive enhancement, harmless if unsupported) */
 ::selection {
   background: var(--color-coral);

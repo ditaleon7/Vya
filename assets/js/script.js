@@ -81,7 +81,8 @@ function initGulls() {
     const wrap = document.createElement("div");
     wrap.className = "gull absolute";
     wrap.style.top = `${randomBetween(8, 40)}%`;
-    wrap.style.animationDelay = `${randomBetween(0, 10)}s`;
+    // negative delay = animation starts already in progress, so it flies immediately on load
+    wrap.style.animationDelay = `-${randomBetween(0, 22)}s`;
     wrap.innerHTML = `
       <svg width="34" height="16" viewBox="0 0 34 16" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1 10C6 2 11 2 17 8C23 2 28 2 33 10" stroke="#163A52" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
